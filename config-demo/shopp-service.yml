@@ -1,0 +1,12 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+  instance:
+    hostname: localhost
+
+data:
+  env: config-eureka-dev
+  user:
+    username: eureka-client-user
+    password: 1291029102
